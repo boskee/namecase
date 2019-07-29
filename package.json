@@ -1,5 +1,5 @@
 {
-  "name": "namecase-ts-fork",
+  "name": "namecase-rlancer-fork",
   "version": "v1.1.2",
   "description": "Module for fixing capitalization of people's names",
   "keywords": [
@@ -22,10 +22,11 @@
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
   },
-  "main": "namecase",
+  "main": "out/namecase",
+  "types": "",
   "readmeFilename": "README.md",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test"
-  },
-  "bugs": "https://github.com/emgee3/namecase/issues"
+    "test": "./node_modules/mocha/bin/mocha test",
+    "prepack": "tsc"
+  }
 }

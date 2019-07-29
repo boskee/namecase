@@ -1,7 +1,5 @@
-var assert = require('assert');
-var nc = require('../out/namecase').default;
-
-console.log(nc)
+const assert = require('assert');
+const nc = require('../out/namecase').default;
 
 describe('NameCase.checkName()', function () {
     it('should see if case fixes are necessary', function () {
