@@ -32,8 +32,6 @@ namecase.normalize = function (name) {
 // Actual case fixing function
 var nc = function (el, opt) {
 
-  console.log(el)
-
   opt = opt || {};
 
   el = el
